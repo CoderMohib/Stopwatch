@@ -84,7 +84,7 @@ function Stopwatch() {
         <button onClick={handleResetRunning}>Reset</button>
         <button onClick={handleLap}>Lap</button>
       </div>
-      <Laps lapse={lapse} />
+      <Laps lapse={lapse} setTimelapse={setLapse} />
     </div>
   );
 }
