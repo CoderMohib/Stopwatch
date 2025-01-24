@@ -1,10 +1,10 @@
+import { Fragment } from 'react';
 import Stopwatch from './components/Stopwatch/stopwatch.jsx';
 import './styles/stopwatch.css';
-export default function App(){
-    
+export default function App(){  
     return (
-        <div className="main-container">
+        <Fragment>
             <Stopwatch />  
-        </div>
+        </Fragment>
     );
 }
